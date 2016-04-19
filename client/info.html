@@ -1,0 +1,88 @@
+<template name="info">
+    <div class="col-md-6">
+      <h2 class="text-grey">Todos los cursos </h2>
+      <h1 class="text-blue">$0.00 / mensuales</h1>
+      <hr>
+      <h2 class="text-blue">¿Qué incluye?</h2>
+      <p class="text-left lead"><i class="fa fa-check" aria-hidden="true"></i> Acceso ilimitado</p>
+      <p class="text-left lead"><i class="fa fa-check" aria-hidden="true"></i> Certificado</p>
+      <p class="text-left lead"><i class="fa fa-check" aria-hidden="true"></i> Chat interactivo</p>
+      <p class="text-left lead"><i class="fa fa-check" aria-hidden="true"></i> Blog de notas</p>
+    </div>
+
+    <div class="col-md-6 div1">
+      <form class="form-horizontal">
+        <fieldset>
+          <h2 class='text-white'>Prueba de 20 días gratis</h2>
+          <hr>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <input type="text" class="form-control" placeholder="Nombres">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <input type="text" class="form-control" placeholder="Apellidos">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Correo Electronico">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <textarea class="form-control" rows="3" id="textArea" placeholder="Comentario"></textarea>
+              <span class="help-block text-white">Escribe aquí un comentario.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-2 control-label text-white">Genero</label>
+            <div class="col-lg-10">
+              <div class="radio">
+                <label class="text-white">
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                  Masculino
+                </label>
+              </div>
+              <div class="radio">
+                <label class="text-white">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                 Femenino
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="select" class="col-lg-2 control-label text-white">Selecciona un curso</label>
+            <div class="col-lg-10">
+              <select class="form-control" id="select">
+                <option>Diseño y desarrollo de sitios web en Meteor</option>
+                <option>Diseño y desarrollo de sitios web en Ruby on Rails</option>
+                <option>Diseño y desarrollo de sitios web en Java + Zk</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10">
+              <div class="checkbox">
+                <label class='text-white'>
+                  <input type="checkbox"> Acepto las <a href="">políticas de privacidad</a>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+              <button type="submit" class="btn btn-info">Registrar</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+</template>
